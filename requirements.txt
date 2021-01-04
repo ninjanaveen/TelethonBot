@@ -1,0 +1,11 @@
+telethon
+cryptg
+heroku3
+sqlalchemy>=1.2
+psycopg2
+requests
+Pillow
+telegraph
+httplib2
+humanize
+lxml
