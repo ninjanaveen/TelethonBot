@@ -26,10 +26,10 @@ data2 = {"accept-encoding": "gzip", "user-agent": "RemotrAndroid/1.5.0"}
 
 @UltraBot.on(events.NewMessage)
 async def BannedNibbas(event):
-if event.sender_id in Config.BANNED_ID
+if event.sender_id in Config.BANNED_ID:
 await event.reply("**You are Banned here Gay! GTFO**")
 return True
-
+)
 @UltraBot.on(events.NewMessage(pattern="^/proxy$"))
 async def Devsexpo(event):
     if event.sender_id != Config.OWNER_ID:
